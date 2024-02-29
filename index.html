@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="UTF-8">
-    <title>Freelancer - HTML</title>
+    <title>Blog | Safs - HTML</title>
 
     <!-- ====== Google Fonts ====== -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
@@ -22,16 +22,6 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar-nav">
-    
-     <!-- Preloader -->
-    <div class="preloader">
-        <div class="spinner">
-            <div class="cube1"></div>
-            <div class="cube2"></div>
-        </div>
-    </div>
-    <!-- // Preloader -->
-    
 
     <!-- ====== Header ====== -->
     <header id="header" class="header">
@@ -50,1022 +40,225 @@
 
                 <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#home">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#service">CAREER</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
-                        <li class="nav-item"><a class="nav-link pr0" href="#contact">CONTACT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="blog.html">BLOG</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- ====== // Navbar ====== -->
+
+        <!-- Page Title -->
+        <div class="page-title bg-img section-padding bg-overlay" style="background-image: url(assets/images/breadcrumb.jpg)">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h2>Blog</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // Page Title -->
     </header>
     <!-- ====== // Header ====== -->
 
-    <!-- ====== Hero Area ====== -->
-    <div class="hero-aria" id="home">
-        <!-- Hero Area Content -->
-        <div class="container">
-            <div class="hero-content h-100">
-                <div class="d-table">
-                    <div class="d-table-cell">
-                        <h2 class="text-uppercase">I am a senior full stack developer.</h2>
-                        <!-- <h3 class="text-uppercase"><span class="typed"></span></h3> -->
-                        <p></p>
-                        <a href="#about" class="button smooth-scroll">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- // Hero Area Content -->
-        <!-- Hero Area Slider -->
-        <div class="hero-area-slids owl-carousel">
-            <div class="single-slider">
-                <!-- Single Background -->
-                <div class="slider-bg" style="background-image: url(assets/images/hero-area/img-1.jpg)"></div>
-                <!-- // Single Background -->
-            </div>
-            <div class="single-slider">
-                <!-- Single Background -->
-                <div class="slider-bg" style="background-image: url(assets/images/hero-area/img-2.jpg)"></div>
-                <!-- // Single Background -->
-            </div>
-        </div>
-        <!-- // Hero Area Slider -->
-    </div>
-    <!-- ====== //Hero Area ====== -->
 
-    <!-- ====== Featured Area ====== -->
-    <section id="featured" class="section-padding pb-70">
+
+    <section class="blog-section">
         <div class="container">
             <div class="row">
-                <!-- single featured item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-featured-item-wrap">
-                        <h3><a href="#">Back-end developer</a></h3>
-                        <div class="single-featured-item">
-                            <div class="featured-icon">
-                                <!-- <i class="fa fa-edit"></i> -->
-                            </div>
-                            <p>Stack: PHP, Python, Node.js, Express, Django, Nest, Flask, Laravel.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single featured item -->
-                <!-- single featured item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-featured-item-wrap">
-                        <h3><a href="#">Front-end developer</a></h3>
-                        <div class="single-featured-item">
-                            <div class="featured-icon">
-                                <!-- <i class="fa fa-edit"></i> -->
-                            </div>
-                            <p>Stack: HTML, CSS/SASS, React, Vue, Angular, TypeScript, Responsive web Design, UI/UX design.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single featured item -->
-                <!-- single featured item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-featured-item-wrap">
-                        <h3><a href="#">DataBase Design</a></h3>
-                        <div class="single-featured-item">
-                            <div class="featured-icon">
-                                <!-- <i class="fa fa-edit"></i> -->
-                            </div>
-                            <p>Stack: MySQL, PostgreSQL, MongoDB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-featured-item-wrap">
-                        <h3><a href="#">Other</a></h3>
-                        <div class="single-featured-item">
-                            <div class="featured-icon">
-                                <!-- <i class="fa fa-search"></i> -->
-                            </div>
-                            <p>DevOps: Matlab, Ruby, Swift, AWS, CI/CD... </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-featured-item-wrap">
-                        <h3><a href="#">App</a></h3>
-                        <div class="single-featured-item">
-                            <div class="featured-icon">
-                            </div>
-                            <p>App:React Native, Kotlin, ...</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6">
-                    <div class="single-featured-item-wrap">
-                        <h3><a href="#">Other</a></h3>
-                        <div class="single-featured-item">
-                            <div class="featured-icon">
-                            </div>
-                            <p>Other: DevOps(AWS, CI/CD), App(Worker, Web App Manifest, IndexedDB).</p>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <!-- ====== //Featured Area ====== -->
-
-    <!-- ====== About Area ====== -->
-    <section id="about" class="section-padding about-area bg-light">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10 ">
-                    <div class="section-title text-center">
-                        <h2>About Me</h2>
-                    </div>
-                    <div class="section-title text-left">
-                        <p>I am a freelance web developer with over 8 years of experience.</p>
-                        <p>I'm a web developer with a passion for creating engaging and functional online experiences.</p>
-                        <p>I love turning ideas into reality through coding and design, whether it's building responsive, user-friendly websites, optimizing performance, or creating interactive web applications.</p>
-                        <p>We leverage our expertise in languages such as HTML, CSS, JavaScript, and various frameworks to continually leverage the latest web technologies and best practices.</p>
-                        <p>We are ready to work together to bring innovative digital solutions to life.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-bg" style="background-image:url(assets/images/about-bg.jpg)">
-                        <!-- Social Link -->
-                        <!-- <div class="social-aria">
-                            <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
-                            <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
-                            <a target="_blank" href="#"><i class="fab fa-youtube"></i></a>
-                        </div> -->
-                        <!-- // Social Link -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content">
-
-                        <h5>My Skills</h5>
-
-                        <!-- Skill Area -->
-                        <div id="skills" class="skill-area">
-
-                            <!-- Single skill -->
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="100%">
-                                    <div class="skillbar-title"><span>HTML5</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">100%</div>
-                                </div>
-                            </div>
-                            <!-- //Single skill -->
-
-                            <!-- Single skill -->
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="skillbar-title"><span>CSS/SASS</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div>
-                            </div>
-                            <!-- //Single skill -->
-
-                            <!-- Single skill -->
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="100%">
-                                    <div class="skillbar-title"><span>JS</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">100%</div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="skillbar-title"><span>React</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="70%">
-                                    <div class="skillbar-title"><span>TypeScript</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">70%</div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="90%">
-                                    <div class="skillbar-title"><span>Python</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">90%</div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="skillbar-title"><span>Express</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="70%">
-                                    <div class="skillbar-title"><span>MongoDB</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">70%</div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="skillbar-title"><span>flutter</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div>
-                            </div>
-                            <!-- //Single skill -->
-
-                        </div>
-                        <!-- //Skill Area -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ====== // About Area ====== -->
-
-
-    <!-- ====== Fact Counter Section ====== -->
-    <!-- ====================================================================
-            NOTE: You need to change  'data-count="10"' and 'p' Eliments 
-        ===================================================================== -->
-    <section class="section-padding pb-70 bg-img fact-counter" id="counter" style="background-image: url(assets/images/fan-fact-bg.jpg)">
-        <div class="container">
-            <div class="row">
-                <!-- Single Fact Counter -->
-                <div class="col-lg-3 co col-md-6 l-md-6 text-center">
-                    <div class="single-fun-fact">
-                        <h2><span class="counter-value" data-count="08">0</span>+</h2>
-                        <p>Experience Years</p>
-                    </div>
-                </div>
-                <!-- // Single Fact Counter -->
-                <!-- Single Fact Counter -->
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="single-fun-fact">
-                        <h2><span class="counter-value" data-count="250">0</span>+</h2>
-                        <p>Order Number</p>
-                    </div>
-                </div>
-                <!-- // Single Fact Counter -->
-                <!-- Single Fact Counter -->
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="single-fun-fact">
-                        <h2><span class="counter-value" data-count="560">0</span>+</h2>
-                        <p>Happy Clients</p>
-                    </div>
-                </div>
-                <!-- // Single Fact Counter -->
-                <!-- Single Fact Counter -->
-                <!-- <div class="col-lg-3 col-md-6 text-center">
-                    <div class="single-fun-fact">
-                        <h2><span class="counter-value" data-count="451">0</span>+</h2>
-                        <p>Cups of Coffee</p>
-                    </div>
-                </div> -->
-                <!-- // Single Fact Counter -->
-            </div>
-        </div>
-    </section>
-    <!-- ====== //Fact Counter Section ====== -->
-
-    <!-- ====== Service Section ====== -->
-    <section id="service" class="section-padding pb-70 service-area bg-light">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Career</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-
-            <div class="row">
-                <!-- Single Service -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-service">
-                        <div class="service-icon">
-                            <i class="fa fa-chart-area"></i>
-                        </div>
-                        <h2>Frontend</h2>
-                        <p>-Delivered 5 successful projects with innovative user experiences</p>
-                        <p>-Developed responsive websites and web applications for various clients</p>
-                        <p>-Worked closely with backend developers to create complex functionalities</p>
-                        <p>-Experienced in creating and maintaining technical documentation</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-service">
-                        <div class="service-icon">
-                            <i class="fa fa-chart-area"></i>
-                        </div>
-                        <h2>Full Stack</h2>
-                        <p>-Assisted a team of senior web developers in creating and maintaining ecommerce websites for 120+</p>
-                        <p>-Implemented UI/UX designs that contributed to a 86% increase in user engagement in the first</p>
-                        <p>-Optimized images and minimized code, helping to increase the company's website speed by 45%</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-service">
-                        <div class="service-icon">
-                            <i class="fa fa-chart-area"></i>
-                        </div>
-                        <h2>Senior</h2>
-                        <p>-Collaborated with 10+ developers to design a 2-way email functionality for a major Internet Service Provider</p>
-                        <p>-Developed websites, games, and 5+ other high-quality enterprise</p>
-                        <p>-Software projects: Completed requirements gathering, planning, designing, and user acceptance</p>
-                        <p>-Testing for 20+ commercial banks and large projects</p>
-                    </div>
-                </div>
-                <!-- //Single Service -->
-            </div>
-
-        </div>
-    </section>
-    <!-- ====== //Service Section ====== -->
-
-    <!-- ====== Why choose Me Section ====== -->
-    <section id="" class="section-padding why-choose-us pb-70">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Why choose Me</h2>
-                        <p>Advantage!!!</p>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row">
-                <!-- Single Why choose me -->
-                <div class="col-md-6">
-                    <div class="single-why-me why-me-right">
-                        <h4>Automate everything</h4>
-                    </div>
-                </div>
-                <!-- // Single Why choose me -->
-
-                <!-- Single Why choose me -->
-                <div class="col-md-6">
-                    <div class="single-why-me why-me-right">    
-                        <h4>Take ownership of my work</h4>
-                    </div>
-                </div>
-                <!-- // Single Why choose me -->
-
-                <!-- Single Why choose me -->
-                <div class="col-md-6">
-                    <div class="single-why-me why-me-right">    
-                        <h4>Leave your code better than when you found it.</h4>
-                    </div>
-                </div>
-                <!-- // Single Why choose me -->
-
-                <!-- Single Why choose me -->
-                <div class="col-md-6">
-                    <div class="single-why-me why-me-right">    
-                        <h4>Excellent problem-solving skills.</h4>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-why-me why-me-right">    
-                        <h4>Look at the big picture.</h4>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-why-me why-me-right">    
-                        <h4>Continue studying.</h4>
-                    </div>
-                </div>
-                <!-- // Single Why choose me -->
-            </div>
-        </div>
-    </section>
-    <!-- ====== //Why choose Me Section ====== -->
-
-    <!-- ====== Portfolio Section ====== -->
-    <section id="portfolio" class="section-padding pb-85 portfolio-area bg-light">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Recent Work</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row justify-content-center">
-                <!-- Work List Menu-->
                 <div class="col-lg-8">
-                    <div class="work-list text-center">
-                        <ul>
-                            <li class="filter" class="active" data-filter="all">ALL</li>
-                            <li class="filter" data-filter=".web">WordPress</li>
-                            <li class="filter" data-filter=".graphic">LandingPage</li>
-                            <li class="filter" data-filter=".logo">Web Project</li>
-                            <li class="filter" data-filter=".wp">App</li>
-                            <li class="filter" data-filter=".other">Other</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- // Work List Menu -->
-            </div>
-            <div class="row portfolio">
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-1.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-10.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-11.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-12.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-13.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-14.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-15.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-16.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-17.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-18.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-19.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mix wp graphic">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-20.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-1.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix logo web graphic other wp">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-2.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-2.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix wp other">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-3.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-3.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix logo other graphic wp web">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-4.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-4.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix logo other wp graphic web">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-5.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-5.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix wp logo graphic web">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-6.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-6.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover other">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix web wp">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-7.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-7.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix logo graphic wp web">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-8.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-8.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-                <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix other logo web">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-9.jpg)">
-                        <div class="portfolio-icon text-center">
-                            <a data-lightbox='lightbox' href="assets/images/portfolio/img-9.jpg"><i class="fas fa-expand-arrows-alt"></i></a>
-                        </div>
-                        <div class="portfolio-hover">
-                            <h4>Project <span>Name</span></h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Portfolio -->
-            </div>
-        </div>
-    </section>
-    <!-- ====== // Portfolio Section ====== -->
-
-    <!-- ====== Frequently asked questions ====== -->
-    <section class="section-padding faq-area bg-secondary">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center faq-title">
-                        <h2>Frequently asked questions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="faq-bg bg-img" style="background-image: url(assets/images/faq.jpeg)"></div>
-                </div>
-                <div class="col-lg-7">
-                    <!-- FAQ Content -->
-                    <div class="faq-content" id="accordion">
-
-                        <!-- Single FAQ -->
-                        <div class="single-faq">
-
-                            <!-- FAQ Header -->
-                            <h4 class="collapsed" data-toggle="collapse" data-target="#faq-1">How does SEO affect web development?</h4>
-                            <!-- // FAQ Header -->
-
-                            <!-- FAQ Content -->
-                            <div id="faq-1" class="collapse show" data-parent="#accordion">
-                                <div class="faq-body">
-                                    <p>1.Design and layout: SEO plays a crucial role in determining the structure, layout, and design of a website. Web developers need to create a user-friendly and search engine-friendly design that allows search engines to crawl and index the website easily. This involves organizing content, navigation, URLs, and other elements of the website in a way that search engines can understand and rank it better.</p>
-                                    <p>2.Keyword research and content creation: SEO requires identifying and targeting relevant keywords that users search for to find information or products. Web developers need to collaborate with content creators and create a website structure that incorporates these keywords appropriately. They also need to ensure that the website's content is optimized for SEO, such as by using relevant headings, meta tags, and descriptions.</p>
-                                </div>
-                            </div>
-                            <!-- FAQ Content -->
-                        </div>
-                        <!-- // Single FAQ -->
-
-                        <!-- Single FAQ -->
-                        <div class="single-faq">
-
-                            <!-- FAQ Header -->
-                            <h4 class="collapsed" data-toggle="collapse" data-target="#faq-2">How does website security work?</h4>
-                            <!-- // FAQ Header -->
-
-                            <!-- FAQ Content -->
-                            <div id="faq-2" class="collapse" data-parent="#accordion">
-                                <div class="faq-body">
-                                    <p>Penetration Testing: Companies may conduct regular penetration tests or hire professionals to assess the security of their websites. This involves simulating potential attacks to identify vulnerabilities and weaknesses that can be patched.</p>
-
-                                    <p>Regular Backups: Creating regular backups of website data ensures that even if the site is compromised, the information can be restored without significant loss. Backup data should be stored in a secure location.</p>
-
-                                    <p>Secure Development Practices: Developers must follow secure coding practices, guidelines, and security best practices to minimize vulnerabilities during the website development process. This includes input validation, secure authentication mechanisms, and data encryption.</p>
-
-                                </div>
-                            </div>
-                            <!-- FAQ Content -->
-                        </div>
-                        <!-- // Single FAQ -->
-
-                        <!-- Single FAQ -->
-                        <div class="single-faq">
-
-                            <!-- FAQ Header -->
-                            <h4 class="collapsed" data-toggle="collapse" data-target="#faq-3">What is version control and why is it important in web development?</h4>
-                            <!-- // FAQ Header -->
-
-                            <!-- FAQ Content -->
-                            <div id="faq-3" class="collapse" data-parent="#accordion">
-                                <div class="faq-body">
-                                    <p>Collaboration: Web development projects often involve multiple developers working on different components of the application. Version control enables seamless collaboration by allowing developers to merge their changes, track who changed what, and resolve conflicts.</p>
-
-                                </div>
-                            </div>
-                            <!-- FAQ Content -->
-                        </div>
-                        <!-- // Single FAQ -->
-
-                    </div>
-                    <!-- FAQ Content -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ====== // Frequently asked questions ====== -->
-
-    <!-- ====== Blog Section ====== -->
-    <section class="section-padding pb-70 blog-section bg-light">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Blog Area</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row">
-                <!-- Single Blog -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog">
-                        <div class="blog-thumb" style="background-image: url(assets/images/blog/img-1.jpg)"></div>
-                        <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
-                        <p class="blog-meta"><a href="#">AL Mamun</a>, 4 SET 2023</p>
-                        <a href="single-blog.html" class="button">Read More</a>
-                    </div>
-                </div>
-                <!-- Single Blog -->
-                <!-- Single Blog -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog">
-                        <div class="blog-thumb" style="background-image: url(assets/images/blog/img-2.jpg)"></div>
-                        <h4 class="blog-title"><a href="single-blog.html">Lifetime free Update</a></h4>
-                        <p class="blog-meta"><a href="#">AL Mamun</a>, 23 API 2023</p>
-                        <a href="single-blog.html" class="button">Read More</a>
-                    </div>
-                </div>
-                <!-- Single Blog -->
-                <!-- Single Blog -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog">
-                        <div class="blog-thumb" style="background-image: url(assets/images/blog/img-3.jpg)"></div>
-                        <h4 class="blog-title"><a href="single-blog.html">Unlimited Support</a></h4>
-                        <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2023</p>
-                        <a href="single-blog.html" class="button">Read More</a>
-                    </div>
-                </div>
-                <!-- Single Blog -->
-            </div>
-        </div>
-    </section>
-    <!-- ====== // Blog Section ====== -->
-
-
-    <!-- ====== Testimonial Section ====== -->
-    <section id="testimonial" class="section-padding bg-secondary testimonial-area">
-        <div class="container bg-white">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Testimonial</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="testimonials owl-carousel" data-ride="carousel">
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-quote">
-                                <i class="fa fa-edit"></i>
-                            </div>
-                            <h4>Portfolio</h4>
-                            <p>https://www.begindot.com/</p>
-                            <p>Me.info</p>
-
-                        </div>
-                        <!-- // Single Testimonial -->
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-quote">
-                                <i class="fa fa-quote-edit"></i>
-                            </div>
-                            <h4>Certificate</h4>
-                            <p>Hiroshima University<span>Bachelor's degree of information engineering</span></p>
-                            <p>Hiroshima University<span>Master's degree of information engineering</span></p>
-
-                        </div>
-                        <!-- // Single Testimonial -->
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-quote">
-                                <i class="fa fa-w3"></i>
-                            </div>
-                            <h4>Resume</h4>
-                            <p>http:// www.dfsf.com</p>
-                            <span>Me.info</span>
-                        </div>
-                        <!-- // Single Testimonial -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ====== // Testimonial Section ====== -->
-
-    <!-- ====== Team Section ====== -->
-    <section class="section-padding pb-70 team-area">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Team</h2>
-                        <p>The best friends</p>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-            <div class="row">
-                <!-- Single Team -->
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-team">
-                        <div class="team-thumb" style="background-image: url(assets/images/team/img-1.jpg)">
-                            <div class="team-social">
-                                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4>Canada</h4>
-                            <span>Connor Fraser</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Team -->
-                <!-- Single Team -->
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-team">
-                        <div class="team-thumb" style="background-image: url(assets/images/team/img-2.jpg)">
-                            <div class="team-social">
-                                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4>US</h4>
-                            <span>Jhon</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Team -->
-                <!-- Single Team -->
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-team">
-                        <div class="team-thumb" style="background-image: url(assets/images/team/img-3.jpg)">
-                            <div class="team-social">
-                                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4>Canada</h4>
-                            <span>Connor Fraser</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Team -->
-                <!-- Single Team -->
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-team">
-                        <div class="team-thumb" style="background-image: url(assets/images/team/img-4.jpg)">
-                            <div class="team-social">
-                                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
-                                <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h4>Japan</h4>
-                            <span>Yamato</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- // Single Team -->
-            </div>
-        </div>
-    </section>
-    <!-- ====== // Team Section ====== -->
-
-
-    <!-- ====== Call to Action Area ====== -->
-    <section class="section-padding call-to-action-aria bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                    <h2>CONTACT</h2>
-                    <h4>Method:Video call, Voice call, chatting(Skype, Slack, Discord...)</h4>
-                </div>
-                <div class="col-lg-3">
-                    <div class="cta-button">
-                        <div class="d-table">
-                            <div class="d-table-cell">
-                                <a href="#" class="button">Contact me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ====== // Call to Action Area ====== -->
-
-
-    
-
-    <!-- ====== Contact Area ====== -->
-    <section id="contact" class="section-padding contact-section bg-light">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="row justify-content-center">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center">
-                        <h2>Contact Me</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- //Section Title -->
-
-            <!-- Contact Form -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <!-- Form -->
-                    <form id="contact-form" action="mail.php" method="post" class="contact-form bg-white">
+                    <div class="blog-area">
                         <div class="row">
-                            <div class="col-lg-6 form-group">
-                                <input type="text" class="form-control" name="name" required placeholder="Name">
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-1.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="single-blog.html" class="button">Read More</a>
+                                </div>
                             </div>
-                            <div class="col-lg-6 form-group">
-                                <input type="email" class="form-control" name="email" required placeholder="Email">
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-2.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="single-blog.html" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-3.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="single-blog.html" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-4.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="#" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-5.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="#" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-6.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="single-blog.html" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-7.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="single-blog.html" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                            <!-- Single Blog -->
+                            <div class="col-sm-6">
+                                <div class="single-blog">
+                                    <div class="blog-thumb" style="background-image: url(assets/images/blog/img-8.jpg)"></div>
+                                    <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                    <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                    <a href="single-blog.html" class="button">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog -->
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 text-center">
+                                <a href="#" class="button blog-btn">Load More</a>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" required placeholder="Subject">
-                        </div>
-
-                        <div class="form-group">
-                            <textarea name="message" id="" class="form-control" required placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-btn text-center">
-                            <button class="button" type="submit">Send Message</button>
-                            <p class="form-message"></p>
-                        </div>
-                    </form>
-                    <!-- // Form -->
+                    </div>
                 </div>
+                
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="blog-sidebar">
+                        <!-- Sidebar Widget -->
+                        <div class="sidebar-widget">
+                            <h2 class="sidebar-title">Search here</h2>
+                            <form action="blog.html" method="get">
+                                <input type="search" placeholder="Search">
+                                <button><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <!-- Sidebar Widget -->
+
+                        <!-- Sidebar Widget -->
+                        <div class="sidebar-widget">
+                            <h2 class="sidebar-title">Categories</h2>
+                            <ol>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Creative</a></li>
+                                <li><a href="#">Idea</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">HTML Template</a></li>
+                                <li><a href="#">Wordpress</a></li>
+                                <li><a href="#">Other</a></li>
+                            </ol>
+                        </div>
+                        <!-- Sidebar Widget -->
+
+                        <!-- Sidebar Widget -->
+                        <div class="sidebar-widget">
+                            <h2 class="sidebar-title">RECENT POSTS</h2>
+                            <ol class="recent-post">
+                                <!-- Single Recent Post -->
+                                <li>
+                                    <span style="background-image: url(assets/images/blog/img-1.jpg)"></span>
+                                    <div class="blog-content">
+                                        <a href="single-blog.html">Lorem ipsum dolor sit amet onsectetur</a>
+                                        <div class="blog-date">22 FEB 2018</div>
+                                    </div>
+                                </li>
+                                <!-- Single Recent Post -->
+                                <!-- Single Recent Post -->
+                                <li>
+                                    <span style="background-image: url(assets/images/blog/img-2.jpg)"></span>
+                                    <div class="blog-content">
+                                        <a href="single-blog.html">Lorem ipsum dolor sit amet onsectetur</a>
+                                        <div class="blog-date">22 FEB 2018</div>
+                                    </div>
+                                </li>
+                                <!-- Single Recent Post -->
+                                <!-- Single Recent Post -->
+                                <li>
+                                    <span style="background-image: url(assets/images/blog/img-3.jpg)"></span>
+                                    <div class="blog-content">
+                                        <a href="single-blog.html">Lorem ipsum dolor sit amet onsectetur</a>
+                                        <div class="blog-date">22 FEB 2018</div>
+                                    </div>
+                                </li>
+                                <!-- Single Recent Post -->
+                                <!-- Single Recent Post -->
+                                <li>
+                                    <span style="background-image: url(assets/images/blog/img-4.jpg)"></span>
+                                    <div class="blog-content">
+                                        <a href="single-blog.html">Lorem ipsum dolor sit amet onsectetur</a>
+                                        <div class="blog-date">22 FEB 2018</div>
+                                    </div>
+                                </li>
+                                <!-- Single Recent Post -->
+                            </ol>
+                        </div>
+                        <!-- Sidebar Widget -->
+
+                        <!-- Sidebar Widget -->
+                        <div class="sidebar-widget">
+                            <h2 class="sidebar-title">POPULAR TAGS</h2>
+                            <ol class="tags">
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Creative</a></li>
+                                <li><a href="#">Idea</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">HTML Template</a></li>
+                                <li><a href="#">Wordpress</a></li>
+                                <li><a href="#">Other</a></li>
+                            </ol>
+                        </div>
+                        <!-- Sidebar Widget -->
+                    </div>
+                </div>
+                <!-- // Sidebar -->
             </div>
-            <!-- // Contact Form -->
         </div>
     </section>
-    <!-- ====== // Contact Area ====== -->
-
 
     <!-- ====== Footer Area ====== -->
     <footer class="footer-area">
@@ -1073,7 +266,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="copyright-text">
-                        <p class="text-white">&copy; 2018 <a href="https://www.begindot.com/">Portfolio Designed by Naoto Kato</a></p>
+                        <p class="text-white">&copy; 2018 <a href="https://www.begindot.com/">A Template Designed by Begindot</a></p>
                     </div>
                 </div>
             </div>
@@ -1082,20 +275,14 @@
     <!-- ====== // Footer Area ====== -->
 
 
-
-
-
-
-     <!-- ====== ALL JS ====== -->
-   <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- ====== ALL JS ====== -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/lightbox.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.mixitup.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/typed.js"></script>
-    <script src="assets/js/skill.bar.js"></script>
-    <script src="assets/js/fact.counter.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
